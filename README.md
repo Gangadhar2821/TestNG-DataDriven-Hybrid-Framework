@@ -30,7 +30,7 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 > The following core functionalities were **designed and developed from scratch** as part of the framework implementation:
 
-- ✅ **Custom WebDriver Factory** Implementation by leveraging the **Singleton design pattern** combined with **ThreadLocal<WebDriver>** to manage browser instances efficiently in parallel test executions..
+- ✅ **Custom WebDriver Factory** Implementation by leveraging the **Singleton design pattern** combined with **ThreadLocal -WebDriver** to manage browser instances efficiently in parallel test executions..
 
 - 📦 **Page Object Model (POM)** structure with page-wise encapsulation and modular method definitions.
 
