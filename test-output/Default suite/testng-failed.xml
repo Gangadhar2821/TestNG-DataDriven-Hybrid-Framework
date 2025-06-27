@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cogmentoCRM.Web.testcases.TC001_CreateNewContactTest">
+      <class name="cogmentoCRM.Web.testcases.AddNewEventTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="validateCreatedEvent"/>
           <include name="login"/>
-          <include name="createNewContact"/>
           <include name="logout"/>
+          <include name="createNewEvent"/>
         </methods>
-      </class> <!-- cogmentoCRM.Web.testcases.TC001_CreateNewContactTest -->
+      </class> <!-- cogmentoCRM.Web.testcases.AddNewEventTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

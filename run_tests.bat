@@ -1,10 +1,9 @@
 @echo off
 
-
-REM Navigate to project directory
+REM Navigate to your Maven project directory
 cd /d "D:\Automation_Redefined\Cogmento-CRM-Web"
 
-REM Run Maven with dynamic plugin argument
-mvn test 
+REM Run TestNG suite using Maven
+mvn -DsuiteXmlFile=testng.xml test
 
 pause

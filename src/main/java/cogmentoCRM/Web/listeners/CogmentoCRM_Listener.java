@@ -36,7 +36,7 @@ public class CogmentoCRM_Listener implements ITestListener {
 
 		// Capture screenshot on test failure
 		try {
-			String screenShotpath = BasePage.ScreenShotOnFailure(result);
+			String screenShotpath = new BasePage(WebDriverFactory.getDriver()).ScreenShotOnFailure(result);
 			// Attach the screenshot to the report
 			ExtentReportsManager.getTest().addScreenCaptureFromPath(screenShotpath);
 		} catch (IOException e) {

@@ -1,21 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-12T12:47:02 IST" name="Regression Suite" finished-at="2025-06-12T12:47:34 IST" duration-ms="32542">
+  <suite started-at="2025-06-27T17:23:06 IST" name="Regression Suite" finished-at="2025-06-27T17:23:39 IST" duration-ms="33940">
     <groups>
     </groups>
-    <test started-at="2025-06-12T12:47:02 IST" name="Regression Test" finished-at="2025-06-12T12:47:34 IST" duration-ms="32542">
-      <class name="cogmentoCRM.Web.testcases.CreateNewContactTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:02 IST" name="setup" finished-at="2025-06-12T12:47:09 IST" duration-ms="7836" status="PASS">
+    <test started-at="2025-06-27T17:23:06 IST" name="Regression Test" finished-at="2025-06-27T17:23:39 IST" duration-ms="33940">
+      <class name="cogmentoCRM.Web.testcases.AddNewEventTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewEventTest@6986bbaf]" started-at="2025-06-27T17:23:06 IST" name="setUp" finished-at="2025-06-27T17:23:14 IST" duration-ms="8321" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:09 IST" name="login" finished-at="2025-06-12T12:47:10 IST" duration-ms="380" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewEvent(java.util.Map)[pri:1, instance:cogmentoCRM.Web.testcases.AddNewEventTest@6986bbaf]" started-at="2025-06-27T17:23:15 IST" name="createNewEvent" data-provider="ExcelTestData" finished-at="2025-06-27T17:23:29 IST" duration-ms="13898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Title=@@Str(10), Start Date=Sun Aug 10 04:30:00 IST 2025, End Date=Thu Aug 07 05:30:00 IST 2025, Category=Meeting, Description=@@Str(20), Location=@@Str(20), All Day=Yes, Identifier=xyz@gmail.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="createNewContact(java.util.Map)[pri:1, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:11 IST" name="createNewContact" data-provider="ExcelTestData" finished-at="2025-06-12T12:47:30 IST" duration-ms="19250" status="PASS">
+        </test-method> <!-- createNewEvent -->
+        <test-method signature="validateCreatedEvent()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewEventTest@6986bbaf]" started-at="2025-06-27T17:23:29 IST" name="validateCreatedEvent" finished-at="2025-06-27T17:23:36 IST" depends-on-methods="cogmentoCRM.Web.testcases.AddNewEventTest.createNewEvent" duration-ms="7430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedEvent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewEventTest@6986bbaf]" started-at="2025-06-27T17:23:36 IST" name="tearDown" finished-at="2025-06-27T17:23:37 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cogmentoCRM.Web.testcases.AddNewEventTest -->
+      <class name="cogmentoCRM.Web.testcases.AddNewDealTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewDealTest@126945f9]" started-at="2025-06-27T17:23:06 IST" name="setUp" finished-at="2025-06-27T17:23:14 IST" duration-ms="8264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewDeal(java.util.Map)[pri:0, instance:cogmentoCRM.Web.testcases.AddNewDealTest@126945f9]" started-at="2025-06-27T17:23:15 IST" name="createNewDeal" data-provider="ExcelTestData" finished-at="2025-06-27T17:23:26 IST" duration-ms="11576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{title=@@Str(8), company=@@Str(4), closedate=Sat Jun 28 15:00:00 IST 2025, description=@@Str(20), probability=20, amount=1000, type=New, source=online, filterSearch=title}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeal -->
+        <test-method signature="validateCreatedDeal()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewDealTest@126945f9]" started-at="2025-06-27T17:23:26 IST" name="validateCreatedDeal" finished-at="2025-06-27T17:23:29 IST" depends-on-methods="cogmentoCRM.Web.testcases.AddNewDealTest.createNewDeal" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedDeal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewDealTest@126945f9]" started-at="2025-06-27T17:23:29 IST" name="tearDown" finished-at="2025-06-27T17:23:30 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cogmentoCRM.Web.testcases.AddNewDealTest -->
+      <class name="cogmentoCRM.Web.testcases.AddNewContactTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewContactTest@4879dfad]" started-at="2025-06-27T17:23:06 IST" name="setUp" finished-at="2025-06-27T17:23:14 IST" duration-ms="8477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewContact(java.util.Map)[pri:0, instance:cogmentoCRM.Web.testcases.AddNewContactTest@4879dfad]" started-at="2025-06-27T17:23:15 IST" name="createNewContact" data-provider="ExcelTestData" finished-at="2025-06-27T17:23:35 IST" duration-ms="20587" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,26 +72,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContact -->
-        <test-method signature="validateCreatedContact(java.util.Map)[pri:2, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:30 IST" name="validateCreatedContact" data-provider="ExcelTestData" finished-at="2025-06-12T12:47:33 IST" depends-on-methods="cogmentoCRM.Web.testcases.CreateNewContactTest.createNewContact" duration-ms="3192" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{search=First Name, operator=Equals, firstName=@@str(6)}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateCreatedContact()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewContactTest@4879dfad]" started-at="2025-06-27T17:23:35 IST" name="validateCreatedContact" finished-at="2025-06-27T17:23:39 IST" depends-on-methods="cogmentoCRM.Web.testcases.AddNewContactTest.createNewContact" duration-ms="3182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatedContact -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:33 IST" name="logout" finished-at="2025-06-12T12:47:34 IST" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:34 IST" name="tearDown" finished-at="2025-06-12T12:47:34 IST" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cogmentoCRM.Web.testcases.AddNewContactTest@4879dfad]" started-at="2025-06-27T17:23:39 IST" name="tearDown" finished-at="2025-06-27T17:23:39 IST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- cogmentoCRM.Web.testcases.CreateNewContactTest -->
+      </class> <!-- cogmentoCRM.Web.testcases.AddNewContactTest -->
     </test> <!-- Regression Test -->
   </suite> <!-- Regression Suite -->
 </testng-results>

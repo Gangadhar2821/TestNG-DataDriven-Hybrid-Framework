@@ -3,12 +3,8 @@ package cogmentoCRM.Web.pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
-
-import com.aventstack.extentreports.Status;
 
 import cogmentoCRM.Web.base.BasePage;
-import cogmentoCRM.Web.utilities.ExtentReportsManager;
 
 public class HomePage extends BasePage {
 
@@ -25,9 +21,6 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//i[@class='users icon']/parent::a")
 	private WebElement icon_Contacts;
 
-	@FindBy(xpath = "//i[@class='users icon']/parent::a/following-sibling::button")
-	private WebElement icon_AddContacts;
-
 	@FindBy(xpath = "//i[@class='settings icon' ]/parent::div")
 	private WebElement icon_Settings;
 
@@ -37,8 +30,19 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//i[@class='calendar icon']")
 	private WebElement icon_Calender;
 
+	@FindBy(xpath = "//i[@class='money icon']")
+	private WebElement icon_Deals;
+
 	public WebElement getIcon_Calender() {
 		return icon_Calender;
+	}
+
+	public WebElement getIcon_Deals() {
+		return icon_Deals;
+	}
+
+	public void clickIcon_Deals() {
+		elementActions.clickElement(icon_Deals);
 	}
 
 	public WebElement getLogo_Username() {
@@ -52,10 +56,6 @@ public class HomePage extends BasePage {
 
 	public WebElement getIcon_Contacts() {
 		return icon_Contacts;
-	}
-
-	public WebElement getIcon_AddContacts() {
-		return icon_AddContacts;
 	}
 
 	public WebElement getIcon_Settings() {
@@ -81,10 +81,6 @@ public class HomePage extends BasePage {
 		} catch (Exception e) {
 			log.error(e.getMessage() + "Failed to click on AddContacts");
 		}
-	}
-
-	public void clickIcon_AddContacts() {
-		elementActions.jsClick(driver, icon_AddContacts);
 	}
 
 	public void clickIcon_Calender() {
