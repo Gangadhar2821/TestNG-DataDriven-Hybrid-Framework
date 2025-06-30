@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 30 13:00:48 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>79 seconds (79593 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cogmentoCRM.Web.testcases.AddNewContactTest.createNewContact()'><b>createNewContact</b><br>Test class: cogmentoCRM.Web.testcases.AddNewContactTest<br>Parameters: {firstName=@@str(12), lastName=@@str(4), middleName=@@str(3), company=xyz, tags=, email=xyz@gmail.com, category=Contact, status=Active, description=@@str(20), social Channel=Facebook, channel link=https://ui.cogmento.com/contacts/new/, timeZone=, address=@@str(6), number=@@mob, position=@@str(6), department=@@str(6), supervisor=@@str(6), assistant=@@str(6), referred By=@@str(6), source=Google, Do not call=Yes, Do not email=, Do not text=, Bday Date=Sat Nov 22 00:00:00 IST 1997, identifier=@@str(4), image=D:\\Automation_Redefined\\Cogmento-CRM-Web\\testdata\\img1.jpg, =}</td>
+<td></td>
+<td>19</td>
+<td>cogmentoCRM.Web.testcases.AddNewContactTest@28ec166e</td></tr>
+<tr>
+<td title='cogmentoCRM.Web.testcases.AddNewEventTest.createNewEvent()'><b>createNewEvent</b><br>Test class: cogmentoCRM.Web.testcases.AddNewEventTest<br>Parameters: {Title=@@Str(10), Start Date=Sat Jun 28 04:30:00 IST 2025, End Date=Thu Aug 07 05:30:00 IST 2025, Category=Meeting, Description=@@Str(20), Location=@@Str(20), All Day=Yes, Identifier=xyz@gmail.com}</td>
+<td></td>
+<td>14</td>
+<td>cogmentoCRM.Web.testcases.AddNewEventTest@2eee3069</td></tr>
+<tr>
+<td title='cogmentoCRM.Web.testcases.AddNewDealTest.createNewDeal()'><b>createNewDeal</b><br>Test class: cogmentoCRM.Web.testcases.AddNewDealTest<br>Parameters: {title=@@Str(8), company=@@Str(4), closedate=Sat Jun 28 15:00:00 IST 2025, description=@@Str(20), probability=20, amount=1000, type=New, source=online, filterSearch=title}</td>
+<td></td>
+<td>10</td>
+<td>cogmentoCRM.Web.testcases.AddNewDealTest@6d3c5255</td></tr>
+<tr>
+<td title='cogmentoCRM.Web.testcases.AddNewDealTest.verifyCreatedDealinList()'><b>verifyCreatedDealinList</b><br>Test class: cogmentoCRM.Web.testcases.AddNewDealTest</td>
+<td></td>
+<td>3</td>
+<td>cogmentoCRM.Web.testcases.AddNewDealTest@6d3c5255</td></tr>
+<tr>
+<td title='cogmentoCRM.Web.testcases.AddNewContactTest.verifyCreatedContactinList()'><b>verifyCreatedContactinList</b><br>Test class: cogmentoCRM.Web.testcases.AddNewContactTest</td>
+<td></td>
+<td>3</td>
+<td>cogmentoCRM.Web.testcases.AddNewContactTest@28ec166e</td></tr>
+<tr>
+<td title='cogmentoCRM.Web.testcases.AddNewEventTest.verifyCreatedEventinList()'><b>verifyCreatedEventinList</b><br>Test class: cogmentoCRM.Web.testcases.AddNewEventTest</td>
+<td></td>
+<td>5</td>
+<td>cogmentoCRM.Web.testcases.AddNewEventTest@2eee3069</td></tr>
+</table><p>
+</body>
+</html>
