@@ -1,0 +1,35 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven output directory
+/target/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# IDE-specific files (IntelliJ, VS Code, etc., if you use other IDEs)
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Log files
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.bak
+*.swp
