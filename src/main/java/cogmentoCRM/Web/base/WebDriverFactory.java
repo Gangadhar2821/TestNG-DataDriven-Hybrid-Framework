@@ -16,7 +16,6 @@ import cogmentoCRM.Web.utilities.LoggerUtil;
 public class WebDriverFactory {
 
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-	static LoggerUtil log;
 
 	private WebDriverFactory() {
 	}
@@ -26,55 +25,57 @@ public class WebDriverFactory {
 	}
 
 	public static void initializeDriver() {
-		log = new LoggerUtil();
-		log.info("--- Started the WebDriver ---");
+		try {
+			LoggerUtil log = new LoggerUtil();
+			log.info("--- Started the WebDriver ---");
 
-		ConfigUtil.loadConfig();
-		boolean isHeadless = Boolean.parseBoolean(ConfigUtil.get("headless"));
-		String browser = ConfigUtil.get("browser").toUpperCase();
-		String url = ConfigUtil.get("baseUrl");
+			ConfigUtil.loadConfig();
+			boolean isHeadless = Boolean.parseBoolean(ConfigUtil.get("headless"));
 
-		WebDriver localDriver = null;
+			String browser = ConfigUtil.get("browser").toUpperCase();
+			String url = ConfigUtil.get("baseUrl");
 
-		switch (browser) {
-		case "CHROME":
-			ChromeOptions chromeOptions = new ChromeOptions();
-			if (isHeadless) {
-				chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+			WebDriver localDriver;
+
+			switch (browser) {
+			case "CHROME":
+				ChromeOptions chromeOptions = new ChromeOptions();
+				if (isHeadless)
+					chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+				localDriver = new ChromeDriver(chromeOptions);
+				log.info("Launched Chrome" + (isHeadless ? " in Headless Mode" : ""));
+				break;
+
+			case "FIREFOX":
+				FirefoxOptions firefoxOptions = new FirefoxOptions();
+				if (isHeadless)
+					firefoxOptions.addArguments("-headless");
+				localDriver = new FirefoxDriver(firefoxOptions);
+				log.info("Launched Firefox" + (isHeadless ? " in Headless Mode" : ""));
+				break;
+
+			case "EDGE":
+				EdgeOptions edgeOptions = new EdgeOptions();
+				if (isHeadless)
+					edgeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+				localDriver = new EdgeDriver(edgeOptions);
+				log.info("Launched Edge" + (isHeadless ? " in Headless Mode" : ""));
+				break;
+
+			default:
+				throw new IllegalArgumentException("Unsupported browser: " + browser);
 			}
-			localDriver = new ChromeDriver(chromeOptions);
-			log.info("Launched the Chrome Browser" + (isHeadless ? " in Headless Mode..." : "..."));
-			break;
 
-		case "FIREFOX":
-			FirefoxOptions firefoxOptions = new FirefoxOptions();
-			if (isHeadless) {
-				firefoxOptions.addArguments("-headless");
-			}
-			localDriver = new FirefoxDriver(firefoxOptions);
-			log.info("Launched the Firefox Browser" + (isHeadless ? " in Headless Mode..." : "..."));
-			break;
+			setDriver(localDriver);
+			localDriver.manage().window().maximize();
+			localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+			localDriver.get(url);
+			log.info("Maximized browser and navigated to URL");
 
-		case "EDGE":
-			EdgeOptions edgeOptions = new EdgeOptions();
-			if (isHeadless) {
-				edgeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
-			}
-			localDriver = new EdgeDriver(edgeOptions);
-			log.info("Launched the Edge Browser" + (isHeadless ? " in Headless Mode..." : "..."));
-			break;
-
-		default:
-			log.info("Invalid browser: " + browser);
-			throw new IllegalArgumentException("Unsupported browser: " + browser);
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException("WebDriver initialization failed: " + e.getMessage());
 		}
-
-		setDriver(localDriver);
-
-		localDriver.manage().window().maximize();
-		localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
-		localDriver.get(url);
-		log.info("Maximized the Browser and Navigated to the Test URL...");
 	}
 
 	public static void setDriver(WebDriver driverInstance) {
@@ -82,6 +83,7 @@ public class WebDriverFactory {
 	}
 
 	public static void quitDriver() {
+		LoggerUtil log = new LoggerUtil();
 		if (driver.get() != null) {
 			driver.get().quit();
 			log.info("--- Killed the WebDriver ---");

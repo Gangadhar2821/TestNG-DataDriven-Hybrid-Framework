@@ -71,6 +71,7 @@ public class ElementActionsImpl implements ElementAction {
 
 	@Override
 	public void inputText(WebElement element, String data) {
+		waitForElementToBeVisible(element, 2);
 		scrollToElement(element);
 		if (data.toLowerCase().startsWith("@@mob")) {
 			String mobileNo = mobileNumGenerator();
@@ -282,6 +283,5 @@ public class ElementActionsImpl implements ElementAction {
 		}
 
 	}
-
 
 }

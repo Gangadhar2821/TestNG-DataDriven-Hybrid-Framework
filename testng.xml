@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Regression Suite" parallel="false" thread-count="3">
+<suite name="Regression Suite" parallel="false" thread-count="10">
 	<listeners>
 		<listener class-name="cogmentoCRM.Web.listeners.CogmentoCRM_Listener" />
 	</listeners>
 	<!--Regression Testing -->
 	<test name="Regression Test">
 		<classes>
-			<class name="cogmentoCRM.Web.testcases.AddNewDealTest" />
-			<class name="cogmentoCRM.Web.testcases.AddNewContactTest" />
-			<class name="cogmentoCRM.Web.testcases.AddNewEventTest" />
+			<class name="cogmentoCRM.Web.testcases.E2E01_MenusNavigationTest" />
+			<class name="cogmentoCRM.Web.testcases.E2E02_AddNewEventTest" />
+			<class name="cogmentoCRM.Web.testcases.E2E03_AddNewContactTest" />
+			<class name="cogmentoCRM.Web.testcases.E2E04_AddNewDealTest" />
+			<class name="cogmentoCRM.Web.testcases.E2E05_AddNewCompanyTest" />
 		</classes>
 	</test>
 </suite> <!--

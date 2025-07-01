@@ -1,17 +1,25 @@
 package cogmentoCRM.Web.base;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import cogmentoCRM.Web.pageObjects.CalenderPage;
+import cogmentoCRM.Web.pageObjects.CallsPage;
+import cogmentoCRM.Web.pageObjects.CampaignsPage;
+import cogmentoCRM.Web.pageObjects.CasesPage;
+import cogmentoCRM.Web.pageObjects.CompaniesPage;
 import cogmentoCRM.Web.pageObjects.ContactsPage;
+import cogmentoCRM.Web.pageObjects.CreateNewCompanyPage;
 import cogmentoCRM.Web.pageObjects.CreateNewContactPage;
 import cogmentoCRM.Web.pageObjects.CreateNewDealPage;
 import cogmentoCRM.Web.pageObjects.CreateNewEventPage;
 import cogmentoCRM.Web.pageObjects.DealsPage;
+import cogmentoCRM.Web.pageObjects.DocumentsPage;
+import cogmentoCRM.Web.pageObjects.FormsPage;
 import cogmentoCRM.Web.pageObjects.HomePage;
 import cogmentoCRM.Web.pageObjects.LoginPage;
+import cogmentoCRM.Web.pageObjects.TasksPage;
 import cogmentoCRM.Web.utilities.ConfigUtil;
 import cogmentoCRM.Web.utilities.LoggerUtil;
 
@@ -29,14 +37,22 @@ public class BaseTest {
 	protected CreateNewEventPage createNewEventPage;
 	protected DealsPage dealsPage;
 	protected CreateNewDealPage createNewDealPage;
+	protected CallsPage callsPage;
+	protected CampaignsPage campaignsPage;
+	protected CasesPage casesPage;
+	protected CompaniesPage companiesPage;
+	protected DocumentsPage documentsPage;
+	protected FormsPage formsPage;
+	protected TasksPage tasksPage;
+	protected CreateNewCompanyPage createNewCompanyPage;
 
-	@BeforeClass(alwaysRun = true)
+	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
 		WebDriverFactory.initializeDriver();
 		driver = WebDriverFactory.getDriver();
 		log = new LoggerUtil();
 
-		// Initialize page objects with thread-local driver
+		// Initialize page objects with the thread-safe driver
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
 		createNewContactpage = new CreateNewContactPage(driver);
@@ -45,32 +61,40 @@ public class BaseTest {
 		createNewEventPage = new CreateNewEventPage(driver);
 		dealsPage = new DealsPage(driver);
 		createNewDealPage = new CreateNewDealPage(driver);
-		login();
-	}
+		callsPage = new CallsPage(driver);
+		campaignsPage = new CampaignsPage(driver);
+		casesPage = new CasesPage(driver);
+		companiesPage = new CompaniesPage(driver);
+		documentsPage = new DocumentsPage(driver);
+		formsPage = new FormsPage(driver);
+		tasksPage = new TasksPage(driver);
+		createNewCompanyPage = new CreateNewCompanyPage(driver);
 
-	public void login() {
-		// Login steps
+		// Perform login
+		ConfigUtil.loadConfig();
 		String username = ConfigUtil.get("username");
 		String password = ConfigUtil.get("password");
-		loginPage.enterEmail(username);
-		loginPage.enterPassword(password);
-		loginPage.clickLogin();
-		log.info("Logged into the Application...!");
-	}
-
-	public void Logout() {
 		try {
-			homePage.getIcon_Settings().click();
-			homePage.getBtn_Logout().click();
-			log.info("Logged Out of the Application...!");
+			loginPage.enterEmail(username);
+			loginPage.enterPassword(password);
+			loginPage.clickLogin();
+			log.info("Logged into the Application...!");
 		} catch (Exception e) {
-			log.error("Logout failed: " + e.getMessage());
+			log.error("Login Failed: " + e.getMessage());
+			throw new RuntimeException("Login Failed", e);
 		}
 	}
 
-	@AfterClass(alwaysRun = true)
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
-		Logout();
+		// Attempt logout, then quit driver
+		try {
+			homePage.clickIcon_Settings();
+			homePage.click_Logout();
+			log.info("Logged Out of the Application...!");
+		} catch (Exception e) {
+			log.warn("Logout may have failed: " + e.getMessage());
+		}
 		WebDriverFactory.quitDriver();
 	}
 }

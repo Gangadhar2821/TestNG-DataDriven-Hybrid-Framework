@@ -19,6 +19,11 @@ public class ConfigUtil {
 	}
 
 	public static String get(String key) {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		String value = properties.getProperty(key);
 		if (value == null) {
 			throw new RuntimeException("Missing config key: " + key);

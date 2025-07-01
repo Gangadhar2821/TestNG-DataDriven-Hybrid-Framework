@@ -15,6 +15,25 @@ public class DealsPage extends BasePage {
 		super(driver);
 	}
 
+	@FindBy(xpath = "//span[@class='selectable ']")
+	private WebElement screenTitle;
+	
+	public WebElement getScreenTitle() {
+		return screenTitle;
+	}
+
+	public WebElement getBtn_CreateDeal() {
+		return btn_CreateDeal;
+	}
+
+	public WebElement getBtn_refresh() {
+		return btn_refresh;
+	}
+
+	public List<WebElement> getAllTableTitles() {
+		return allTableTitles;
+	}
+
 	@FindBy(xpath = "//button[contains(text(),'Create')]")
 	private WebElement btn_CreateDeal;
 

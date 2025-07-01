@@ -15,6 +15,13 @@ public class ContactsPage extends BasePage {
 		super(driver);
 	}
 
+	@FindBy(xpath = "//span[@class='selectable ']")
+	private WebElement screenTitle;
+
+	public WebElement getScreenTitle() {
+		return screenTitle;
+	}
+
 	@FindBy(xpath = "//table//td//a[contains(text(),'')]")
 	private List<WebElement> filteredContacts_FirstNames;
 
