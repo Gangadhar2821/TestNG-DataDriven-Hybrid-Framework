@@ -86,6 +86,24 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//i[@class='wpforms icon']")
 	private WebElement icon_Forms;
 
+	@FindBy(xpath = "//i[@class='mail outline icon']")
+	private WebElement icon_Email;
+
+	@FindBy(xpath = "//i[@class='line chart icon']")
+	private WebElement icon_Reports;
+
+	public WebElement getBtn_Settings() {
+		return btn_Settings;
+	}
+
+	public WebElement getIcon_Email() {
+		return icon_Email;
+	}
+
+	public WebElement getIcon_Reports() {
+		return icon_Reports;
+	}
+
 	public WebElement getIcon_Calender() {
 		return icon_Calender;
 	}
@@ -188,6 +206,16 @@ public class HomePage extends BasePage {
 	public void clickBtn_Settings() {
 		elementActions.waitForElementToBeVisible(btn_Settings, 2);
 		elementActions.jsClick(driver, btn_Settings);
+	}
+
+	public void clickIcon_Email() {
+		elementActions.waitForElementToBeVisible(icon_Email, 2);
+		elementActions.jsClick(driver, icon_Email);
+	}
+
+	public void clickIcon_Reports() {
+		elementActions.waitForElementToBeVisible(icon_Reports, 2);
+		elementActions.jsClick(driver, icon_Reports);
 	}
 
 	public void verifyHomePageIsDisplayed() {

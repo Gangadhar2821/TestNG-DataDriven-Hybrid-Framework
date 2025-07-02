@@ -9,6 +9,7 @@
 		<classes>
 			<class name="cogmentoCRM.Web.testcases.E2E01_MenusNavigationTest" />
 			<class name="cogmentoCRM.Web.testcases.E2E02_AddNewEventTest" />
+			<class name="cogmentoCRM.Web.testcases.E2E06_AddNewTaskTest" />
 			<class name="cogmentoCRM.Web.testcases.E2E03_AddNewContactTest" />
 			<class name="cogmentoCRM.Web.testcases.E2E04_AddNewDealTest" />
 			<class name="cogmentoCRM.Web.testcases.E2E05_AddNewCompanyTest" />

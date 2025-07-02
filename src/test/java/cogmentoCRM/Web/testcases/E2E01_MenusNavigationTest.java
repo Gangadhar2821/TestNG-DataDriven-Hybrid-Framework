@@ -28,10 +28,14 @@ public class E2E01_MenusNavigationTest extends BaseTest {
 		assertTrue(callsPage.getScreenTitle().getText().equalsIgnoreCase("calls"));
 		homePage.clickIcon_Documents();
 		assertTrue(documentsPage.getScreenTitle().getText().equalsIgnoreCase("documents"));
+		homePage.clickIcon_Email();
+		assertTrue(emailPage.getScreenTitle().getText().equalsIgnoreCase("Inbox"));
 		homePage.clickIcon_Campaigns();
 		assertTrue(campaignsPage.getScreenTitle().getText().equalsIgnoreCase("campaigns"));
 		homePage.clickIcon_Forms();
 		assertTrue(formsPage.getScreenTitle().getText().equalsIgnoreCase("forms"));
+		homePage.clickIcon_Reports();
+		assertTrue(reportsPage.getScreenTitle().getText().equalsIgnoreCase("Reports"));
 		homePage.clickIcon_Home();
 		homePage.verifyHomePageIsDisplayed();
 	}

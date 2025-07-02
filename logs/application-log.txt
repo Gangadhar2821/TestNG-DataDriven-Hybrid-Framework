@@ -5232,3 +5232,287 @@ Session ID: 8e65ddb90ad8e6b066a18a8bf1e3911b
 2025-07-01 18:10:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
 2025-07-01 18:10:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
 2025-07-01 18:10:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 13:15:37 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 13:15:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 13:15:47 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 13:15:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 13:15:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 13:15:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 13:16:03 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Test Listner triggered on Test Failure
+2025-07-02 13:16:03 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Failed Screenshot has been taken and saved to D:\Automation_Redefined\CogmentocrmWeb_DataDriven\.\errorshots\navigateMenusAndVerifyLanding@Test_failed on_2025-07-02_13.16.03.png
+2025-07-02 13:16:05 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 13:16:06 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 13:17:08 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 13:17:14 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 13:17:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 13:17:20 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 13:17:20 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 13:17:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 13:17:42 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 13:17:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 16:18:40 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 16:18:46 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 16:18:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 16:18:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 16:18:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 16:19:01 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='title']' (tried for 2 second(s) with 500 milliseconds interval)
+2025-07-02 16:19:02 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='title']"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87a43027cc4b04e03b11692d2428934a, findElement {using=xpath, value=//input[@name='title']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\GANGAD~1.B\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58428/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87a43027cc4b04e03b11692d2428934a
+2025-07-02 16:19:04 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Test Listner triggered on Test Failure
+2025-07-02 16:19:05 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Failed Screenshot has been taken and saved to D:\Automation_Redefined\CogmentocrmWeb_DataDriven\.\errorshots\createNewTask@Test_failed on_2025-07-02_16.19.05.png
+2025-07-02 16:19:07 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 16:19:07 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 16:22:27 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 16:22:33 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 16:22:37 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 16:22:39 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 16:22:39 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 16:22:45 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 16:22:45 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- AekXew
+2025-07-02 16:22:47 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Failed to select the dropdown Option as-- Gangadhar B
+2025-07-02 16:22:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Technical Support
+2025-07-02 16:22:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Fri Aug 15 16:00:00 IST 2025
+2025-07-02 16:22:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Sat Oct 25 16:30:00 IST 2025
+2025-07-02 16:22:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- ggKIFDmPGxMcvMRSQGb
+2025-07-02 16:22:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Awaiting input
+2025-07-02 16:22:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Awaiting input
+2025-07-02 16:22:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 16:22:58 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 16:22:58 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:11:33 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:11:38 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:11:41 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:11:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:11:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:11:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 17:12:04 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:12:04 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:12:05 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:12:09 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:12:12 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:12:14 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:12:14 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:12:20 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:12:20 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- bIaZZuWWNC
+2025-07-02 17:12:21 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- calendarField
+2025-07-02 17:12:21 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performing calender Input
+2025-07-02 17:12:23 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- calendarField
+2025-07-02 17:12:23 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performing calender Input
+2025-07-02 17:12:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Meeting
+2025-07-02 17:12:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- KAUuAsneYcWxtQBhSqhC
+2025-07-02 17:12:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- iQYsHftBkJRIXYIgYlrR
+2025-07-02 17:12:26 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xyz@gmail.com
+2025-07-02 17:12:27 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-02 17:12:29 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Events
+2025-07-02 17:12:31 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Clear
+2025-07-02 17:12:32 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- View
+2025-07-02 17:12:33 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Default View
+2025-07-02 17:12:35 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:12:35 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:12:35 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:12:39 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:12:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:12:45 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:12:45 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:12:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:12:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- qmJVCc
+2025-07-02 17:12:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Failed to select the dropdown Option as-- Gangadhar B
+2025-07-02 17:12:54 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Technical Support
+2025-07-02 17:12:54 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Mon Sep 15 16:00:00 IST 2025
+2025-07-02 17:12:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Sat Oct 25 16:30:00 IST 2025
+2025-07-02 17:12:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- EPOqVOHHhIeCVWaFFLG
+2025-07-02 17:12:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Awaiting input
+2025-07-02 17:12:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Awaiting input
+2025-07-02 17:12:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:13:02 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:13:02 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:13:02 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:13:06 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:13:10 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:13:12 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:13:12 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:13:17 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:13:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- NpLhIzqFYzaJ
+2025-07-02 17:13:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- cdYF
+2025-07-02 17:13:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- wYG
+2025-07-02 17:13:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xyz
+2025-07-02 17:13:19 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xyz@gmail.com
+2025-07-02 17:13:20 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Contact
+2025-07-02 17:13:21 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Active
+2025-07-02 17:13:22 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- wafpzPNyGAVlUTtiJjyW
+2025-07-02 17:13:23 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Facebook
+2025-07-02 17:13:24 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- https://ui.cogmento.com/contacts/new/
+2025-07-02 17:13:24 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- VPmCcF
+2025-07-02 17:13:24 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 8593581982
+2025-07-02 17:13:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- LyxiyV
+2025-07-02 17:13:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- fDEzen
+2025-07-02 17:13:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- cjYjqu
+2025-07-02 17:13:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- jkwnzz
+2025-07-02 17:13:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- HmkfbF
+2025-07-02 17:13:26 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Google
+2025-07-02 17:13:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- khBD
+2025-07-02 17:13:29 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-02 17:13:31 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:13:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:13:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:13:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:13:38 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:13:42 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:13:44 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:13:44 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:13:48 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 17:13:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:13:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- CxpCmhjp
+2025-07-02 17:13:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- WIfD
+2025-07-02 17:13:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- calendarField
+2025-07-02 17:13:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performing calender Input
+2025-07-02 17:13:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- vNiepWTnJVZiEuFSbDmD
+2025-07-02 17:13:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 20
+2025-07-02 17:13:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 1000
+2025-07-02 17:13:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- New
+2025-07-02 17:13:54 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- online
+2025-07-02 17:13:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 17:13:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:13:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:14:00 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:14:00 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:14:04 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:14:07 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:14:09 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:14:09 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:14:14 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:14:15 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- cghaPDxudS
+2025-07-02 17:14:16 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- TxLewEnuSulxjikf
+2025-07-02 17:14:16 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 560095
+2025-07-02 17:14:16 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 8621817003
+2025-07-02 17:14:17 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xcy@gmail.com
+2025-07-02 17:14:17 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- NBmSpnEaqpNiaooX
+2025-07-02 17:14:17 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 40
+2025-07-02 17:14:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 20000000
+2025-07-02 17:14:19 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Partner
+2025-07-02 17:14:20 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-02 17:14:22 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:14:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:14:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:15:08 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:15:13 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:15:16 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:15:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:15:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:15:26 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 17:15:38 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:15:39 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:15:39 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:15:44 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:15:47 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:15:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:15:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:15:54 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:15:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- LdRUnQzyel
+2025-07-02 17:15:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- calendarField
+2025-07-02 17:15:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performing calender Input
+2025-07-02 17:15:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- calendarField
+2025-07-02 17:15:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performing calender Input
+2025-07-02 17:15:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Meeting
+2025-07-02 17:15:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- kMJRLuCEUjhsmatdrmhl
+2025-07-02 17:15:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- FUfmCkfrquyFcZHfuMAK
+2025-07-02 17:16:01 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xyz@gmail.com
+2025-07-02 17:16:02 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-02 17:16:04 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Events
+2025-07-02 17:16:05 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Clear
+2025-07-02 17:16:06 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- View
+2025-07-02 17:16:07 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Default View
+2025-07-02 17:16:09 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:16:10 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:16:10 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:16:14 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:16:17 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:16:19 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:16:19 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:16:24 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:16:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- bDsgGC
+2025-07-02 17:16:27 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Failed to select the dropdown Option as-- Gangadhar B
+2025-07-02 17:16:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Technical Support
+2025-07-02 17:16:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Mon Sep 15 16:00:00 IST 2025
+2025-07-02 17:16:29 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Sat Oct 25 16:30:00 IST 2025
+2025-07-02 17:16:29 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- TlRcCNbrUxYsvvUxKJm
+2025-07-02 17:16:30 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Awaiting input
+2025-07-02 17:16:31 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Awaiting input
+2025-07-02 17:16:33 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:16:36 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:16:36 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:16:36 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:16:40 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:16:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:16:46 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:16:46 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:16:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:16:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- OWBPtThRyMFH
+2025-07-02 17:16:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- wlvs
+2025-07-02 17:16:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- BKN
+2025-07-02 17:16:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xyz
+2025-07-02 17:16:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xyz@gmail.com
+2025-07-02 17:16:54 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Contact
+2025-07-02 17:16:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Active
+2025-07-02 17:16:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- GGodbvKNmyoSetjhxCQR
+2025-07-02 17:16:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Facebook
+2025-07-02 17:16:58 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- https://ui.cogmento.com/contacts/new/
+2025-07-02 17:16:58 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- lTAsrB
+2025-07-02 17:16:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 8456065435
+2025-07-02 17:16:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- srgFqZ
+2025-07-02 17:16:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- kBMKBC
+2025-07-02 17:16:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- mxzxyb
+2025-07-02 17:16:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- oSWgMw
+2025-07-02 17:17:00 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- eSKUJx
+2025-07-02 17:17:01 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Google
+2025-07-02 17:17:02 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- mSeY
+2025-07-02 17:17:03 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-02 17:17:05 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:17:08 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:17:08 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:17:08 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:17:13 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:17:16 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:17:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:17:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:17:22 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 17:17:23 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:17:24 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- sTiWIjpJ
+2025-07-02 17:17:24 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- KMpx
+2025-07-02 17:17:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- calendarField
+2025-07-02 17:17:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performing calender Input
+2025-07-02 17:17:26 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- GyMjrBvybioIzECAjEhm
+2025-07-02 17:17:26 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 20
+2025-07-02 17:17:26 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 1000
+2025-07-02 17:17:27 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- New
+2025-07-02 17:17:28 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- online
+2025-07-02 17:17:29 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- money icon
+2025-07-02 17:17:30 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:17:33 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:17:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-02 17:17:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-02 17:17:38 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-02 17:17:41 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-02 17:17:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-02 17:17:43 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-02 17:17:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-02 17:17:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- myToDLDqfo
+2025-07-02 17:17:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- zELJjwzsoKTIPqgI
+2025-07-02 17:17:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 560095
+2025-07-02 17:17:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 7586691237
+2025-07-02 17:17:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- xcy@gmail.com
+2025-07-02 17:17:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- dYCDmnANGkFNhQav
+2025-07-02 17:17:51 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 40
+2025-07-02 17:17:52 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 20000000
+2025-07-02 17:17:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Partner
+2025-07-02 17:17:54 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-02 17:17:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-02 17:17:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-02 17:17:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---

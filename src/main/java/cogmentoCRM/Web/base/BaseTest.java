@@ -14,11 +14,14 @@ import cogmentoCRM.Web.pageObjects.CreateNewCompanyPage;
 import cogmentoCRM.Web.pageObjects.CreateNewContactPage;
 import cogmentoCRM.Web.pageObjects.CreateNewDealPage;
 import cogmentoCRM.Web.pageObjects.CreateNewEventPage;
+import cogmentoCRM.Web.pageObjects.CreateNewTaskPage;
 import cogmentoCRM.Web.pageObjects.DealsPage;
 import cogmentoCRM.Web.pageObjects.DocumentsPage;
+import cogmentoCRM.Web.pageObjects.EmailPage;
 import cogmentoCRM.Web.pageObjects.FormsPage;
 import cogmentoCRM.Web.pageObjects.HomePage;
 import cogmentoCRM.Web.pageObjects.LoginPage;
+import cogmentoCRM.Web.pageObjects.ReportsPage;
 import cogmentoCRM.Web.pageObjects.TasksPage;
 import cogmentoCRM.Web.utilities.ConfigUtil;
 import cogmentoCRM.Web.utilities.LoggerUtil;
@@ -45,6 +48,9 @@ public class BaseTest {
 	protected FormsPage formsPage;
 	protected TasksPage tasksPage;
 	protected CreateNewCompanyPage createNewCompanyPage;
+	protected EmailPage emailPage;
+	protected ReportsPage reportsPage;
+	protected CreateNewTaskPage createNewTaskPage;
 
 	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
@@ -69,6 +75,9 @@ public class BaseTest {
 		formsPage = new FormsPage(driver);
 		tasksPage = new TasksPage(driver);
 		createNewCompanyPage = new CreateNewCompanyPage(driver);
+		emailPage = new EmailPage(driver);
+		reportsPage = new ReportsPage(driver);
+		createNewTaskPage = new CreateNewTaskPage(driver);
 
 		// Perform login
 		ConfigUtil.loadConfig();
