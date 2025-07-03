@@ -5516,3 +5516,64 @@ Session ID: 87a43027cc4b04e03b11692d2428934a
 2025-07-02 17:17:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
 2025-07-02 17:17:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
 2025-07-02 17:17:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-03 11:58:01 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Test Listner triggered on Test Failure
+2025-07-03 12:04:11 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-03 12:04:18 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-03 12:04:22 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-03 12:04:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-03 12:04:25 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-03 12:04:31 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-03 12:04:31 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- MgeONN
+2025-07-03 12:04:32 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Gangadhar B
+2025-07-03 12:04:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Complaint
+2025-07-03 12:04:34 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- 45947.5104166667
+2025-07-03 12:04:38 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[normalize-space()='Close Date']/parent::div//input' (tried for 2 second(s) with 500 milliseconds interval)
+2025-07-03 12:04:39 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - no such element: Unable to locate element: {"method":"xpath","selector":"//label[normalize-space()='Close Date']/parent::div//input"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5ecb835712f560d594ada8f52fd3d8c, findElement {value=//label[normalize-space()='Close Date']/parent::div//input, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\GANGAD~1.B\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55411/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5ecb835712f560d594ada8f52fd3d8c
+2025-07-03 12:04:41 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Test Listner triggered on Test Failure
+2025-07-03 12:04:41 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Failed Screenshot has been taken and saved to D:\Automation_Redefined\CogmentocrmWeb_DataDriven\.\errorshots\createNewCase@Test_failed on_2025-07-03_12.04.41.png
+2025-07-03 12:04:42 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='settings icon' ]/parent::div"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5ecb835712f560d594ada8f52fd3d8c, findElement {value=//i[@class='settings icon' ]/parent::div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\GANGAD~1.B\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55411/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5ecb835712f560d594ada8f52fd3d8c
+2025-07-03 12:04:47 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //i[@class='settings icon' ]/parent::div' (tried for 3 second(s) with 500 milliseconds interval)
+2025-07-03 12:04:49 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logout may have failed: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='settings icon' ]/parent::div"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5ecb835712f560d594ada8f52fd3d8c, findElement {value=//i[@class='settings icon' ]/parent::div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\GANGAD~1.B\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55411/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5ecb835712f560d594ada8f52fd3d8c
+2025-07-03 12:04:50 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---
+2025-07-03 12:05:35 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Started the WebDriver ---
+2025-07-03 12:05:40 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Launched Chrome
+2025-07-03 12:05:44 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Maximized browser and navigated to URL
+2025-07-03 12:05:47 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged into the Application...!
+2025-07-03 12:05:47 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Started CogmentoCRM_Listener ...
+2025-07-03 12:05:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Create
+2025-07-03 12:05:53 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- DDKWaA
+2025-07-03 12:05:55 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Gangadhar B
+2025-07-03 12:05:56 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Complaint
+2025-07-03 12:05:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Fri Oct 17 12:15:00 IST 2025
+2025-07-03 12:05:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- Fri Nov 14 19:30:00 IST 2025
+2025-07-03 12:05:57 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Text Input as-- DqVeMyXNGXqPRV
+2025-07-03 12:05:59 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- High
+2025-07-03 12:06:00 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Selected the dropdown option as-- Awaiting input
+2025-07-03 12:06:01 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- Save
+2025-07-03 12:06:03 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Performed Click Action on Element-- refresh icon
+2025-07-03 12:06:06 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - Logged Out of the Application...!
+2025-07-03 12:06:07 [main] INFO  cogmentoCRM.Web.utilities.LoggerUtil - --- Killed the WebDriver ---

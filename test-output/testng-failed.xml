@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="10" name="Regression Test(failed)">
     <classes>
-      <class name="cogmentoCRM.Web.testcases.E2E06_AddNewTaskTest">
+      <class name="cogmentoCRM.Web.testcases.E2E07_AddNewCaseTest">
         <methods>
+          <include name="createNewCase" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="createNewTask" invocation-numbers="0"/>
         </methods>
-      </class> <!-- cogmentoCRM.Web.testcases.E2E06_AddNewTaskTest -->
+      </class> <!-- cogmentoCRM.Web.testcases.E2E07_AddNewCaseTest -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

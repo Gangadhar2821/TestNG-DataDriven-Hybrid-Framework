@@ -10,6 +10,7 @@ import cogmentoCRM.Web.pageObjects.CampaignsPage;
 import cogmentoCRM.Web.pageObjects.CasesPage;
 import cogmentoCRM.Web.pageObjects.CompaniesPage;
 import cogmentoCRM.Web.pageObjects.ContactsPage;
+import cogmentoCRM.Web.pageObjects.CreateNewCasePage;
 import cogmentoCRM.Web.pageObjects.CreateNewCompanyPage;
 import cogmentoCRM.Web.pageObjects.CreateNewContactPage;
 import cogmentoCRM.Web.pageObjects.CreateNewDealPage;
@@ -51,6 +52,7 @@ public class BaseTest {
 	protected EmailPage emailPage;
 	protected ReportsPage reportsPage;
 	protected CreateNewTaskPage createNewTaskPage;
+	protected CreateNewCasePage createNewCasePage;
 
 	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
@@ -78,6 +80,7 @@ public class BaseTest {
 		emailPage = new EmailPage(driver);
 		reportsPage = new ReportsPage(driver);
 		createNewTaskPage = new CreateNewTaskPage(driver);
+		createNewCasePage = new CreateNewCasePage(driver);
 
 		// Perform login
 		ConfigUtil.loadConfig();
